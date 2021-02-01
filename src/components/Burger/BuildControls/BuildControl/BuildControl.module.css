@@ -1,0 +1,115 @@
+.BuildControl{
+    width: 100%;
+    height: 100px;
+    background-color : coral;
+    border-radius : 15px;
+    margin: 10px 0;
+
+}
+
+.BuildControlContainer{
+    display : flex;
+    width: 95%;
+    height: 100%;
+
+}
+
+.Controller{
+    width: 100%;
+    background-color : coral;
+    text-align : center;
+    font-weight : bold;
+    display : flex;
+    align-items : center;
+
+}
+
+.ControlPad{
+    display : flex;
+    height: 80%;
+    flex-direction : column;
+    justify-content : space-evenly;
+    margin-right: 15px;
+}
+
+.IconContainer{
+    width: 50%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    
+}
+
+.Text{
+    text-align: center;
+    margin : 5px auto;
+
+}
+
+.PriceContainer{
+    display: inline-block;
+    border : 1px solid black;
+    padding : 1px;
+}
+
+.Button{
+    background-color : transparent;
+    border : 0px;
+}
+
+.Button:focus{
+    outline : none;
+}
+
+
+@media screen and (min-width: 786px){
+
+    .BuildControl{
+        width: 130px;
+        height: 170px;
+        display: flex;
+        flex-direction : column;
+        align-items : center;
+        justify-content : center;
+        padding: 15px 0;
+        box-sizing: border-box;
+        margin: 10px 20px;
+    }    
+
+    .BuildControlContainer{
+        height: 95%;
+        flex-direction : column;
+    }
+
+    .IconContainer{
+        width: 100%;
+        height : 40%;
+        display : flex;
+        justify-content : center;
+        align-items : center;
+        
+    }
+
+    .Controller{
+        margin-top: 15px;
+        width: 100%;
+        height: 60%;
+        flex-direction : column;
+        justify-content : space-between;
+        align-items : center;
+    }
+
+    .ControlPad{
+        flex-direction : row;
+        height : 20%;
+        margin-right: 0px;
+        width : 100%
+    }
+
+    .PriceContainer{
+        display: flex;
+        align-items : center;
+        justify-content : center;
+    }
+
+}

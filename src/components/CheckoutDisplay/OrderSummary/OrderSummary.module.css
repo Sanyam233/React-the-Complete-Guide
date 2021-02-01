@@ -1,0 +1,12 @@
+:root{
+    --summary-font-size : 22px;
+}
+
+.SummaryText{
+    font-size : var(--summary-font-size);
+    color: black;
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items : center;
+    margin-top: 10px;
+}

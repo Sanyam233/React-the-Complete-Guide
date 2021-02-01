@@ -1,0 +1,24 @@
+
+.NavigationItem{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin : 0px 10px;
+
+}
+
+.NavLink{
+    text-decoration: none;
+    color : white;
+
+}
+
+.NavLink:hover{
+    color : blue;
+}
+
+
+.Active{
+    color : blue;
+}

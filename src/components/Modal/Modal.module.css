@@ -1,0 +1,8 @@
+.Modal{
+    z-index : 4;
+    position : fixed;
+    background-color : white;
+    top: 10%;
+    right : 36%;
+    box-sizing: border-box;
+}

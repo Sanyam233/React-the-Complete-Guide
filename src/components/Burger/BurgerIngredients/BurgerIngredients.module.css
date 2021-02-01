@@ -1,0 +1,189 @@
+.BottomBread{
+    width: 80%;
+    height: 59px;
+    background : linear-gradient(#bc581e, #e27b36);
+    margin : 5px auto;
+    border-radius : 0 0 30px 30px;
+    box-shadow : inset -15px 0px #c15711;
+
+}
+
+.TopBread{
+    position: relative;
+    width: 80%;
+    height: 90px;
+    background : linear-gradient(#bc581e, #e27b36);
+    border-radius: 50% 50% 0 0;
+    margin : 5px auto;
+    box-shadow : inset -15px 0px #c15711;
+}
+
+.MeatLayer{
+    background-color : #681f24;
+    width: 90%;
+    height : 7%;
+    margin : 5px auto;
+    border-radius : 20px;    
+
+
+
+}
+
+.TomatoLayer, .OnionLayer, .LettuceLayer, .OlivesLayer, .CheeseLayer{
+    width: 80%;
+    height: 5%;
+    margin-top : 5px;
+    margin : 2% auto;
+    border-radius : 20px;
+
+
+
+}
+
+.TomatoLayer{
+    background-color : red;
+}
+
+.OnionLayer{
+    background-color : whitesmoke;
+}
+
+.LettuceLayer{
+    width: 90%;
+    height : 7%;
+    background : linear-gradient(#228c1d, #91ce50);
+    border-radius : 20px;
+}
+
+.OlivesLayer{
+    background-color : lightgreen;
+}
+
+.BellPeppers{
+    background-color : green;
+}
+
+.CheeseLayer{
+    width: 90%;
+    height : 4%;
+    background-color : #fddb28;
+}
+
+
+
+.SesameSeeds1{
+    position : absolute;
+    background-color : white;
+    left : 30%;
+    top : 50%;
+    border-radius : 40%;
+    height : 15%;
+    width : 10%;
+    transform : rotate(-40deg);
+    box-shadow : inset -2px -3px #c9c9c9;
+}
+
+
+.SesameSeeds1:after{
+    content : "";
+    position : absolute;
+    background-color : white;
+    left : -130%;
+    top : -340%;
+    border-radius : 40%;
+    height : 100%;
+    width : 100%;
+    transform : rotate(80deg);
+    box-shadow : inset -2px -3px #c9c9c9;    
+
+}
+
+.SesameSeeds1:before{
+    content : "";
+    position : absolute;
+    background-color : white;
+    left : 140%;
+    top : 160%;
+    border-radius : 40%;
+    height : 100%;
+    width : 100%;
+    transform : rotate(80deg);
+    box-shadow : inset -2px -3px #c9c9c9;    
+
+}
+
+
+.SesameSeeds2{
+    position : absolute;
+    background-color : white;
+    left : 62%;
+    top : 50%;
+    border-radius : 40%;
+    height : 15%;
+    width : 10%;
+    transform : rotate(20deg);
+    box-shadow : inset -2px -3px #c9c9c9;
+
+}
+
+.SesameSeeds2:after{
+    content : "";
+    position : absolute;
+    background-color : white;
+    left : 130%;
+    top : -230%;
+    border-radius : 40%;
+    height : 100%;
+    width : 100%;
+    transform : rotate(80deg);
+    box-shadow : inset -2px -3px #c9c9c9;    
+
+}
+
+
+
+/* 
+.SesameSeeds:nth-child(1){
+    top : 10px;
+    left : 50px;
+}
+
+.SesameSeeds:nth-child(2){
+    top : 10px;
+    left : 100px;
+}
+
+.SesameSeeds:nth-child(3){
+    top : 10px;
+    left : 150px;
+}
+
+.SesameSeeds:nth-child(4){
+    top : 10px;
+    left : 200px;
+}
+
+.SesameSeeds:nth-child(5){
+    top : 10px;
+    left : 250px;
+}
+
+.SesameSeeds:nth-child(6){
+    top : 30px;
+    left : 75px;
+}
+
+.SesameSeeds:nth-child(7){
+    top : 30px;
+    left : 125px;
+}
+
+.SesameSeeds:nth-child(8){
+    top : 30px;
+    left : 175px;
+}
+
+.SesameSeeds:nth-child(9){
+    top : 30px;
+    left : 225px;
+} */

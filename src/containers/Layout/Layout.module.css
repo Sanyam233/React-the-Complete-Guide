@@ -1,0 +1,17 @@
+.Layout{
+    width: 100%;
+}
+
+.Toolbar{
+    width: 100%;
+    background-color: pink;
+}
+
+.Container{
+    width: 90%;
+    margin: auto;
+}
+
+.Content{
+    margin-top: 16px;
+}

@@ -1,0 +1,6 @@
+.Burger{
+    height : 300px;
+    width: 500px;
+    overflow: scroll;
+    box-sizing: border-box;
+}

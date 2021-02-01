@@ -1,0 +1,10 @@
+.CheckoutButton{
+    height: 80%;
+    background-color : coral;
+    color : white;
+    width : 150px;
+    border-radius : 10px;
+    border : 0px;
+    outline : none;
+}
+

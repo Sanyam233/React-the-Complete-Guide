@@ -1,0 +1,12 @@
+.TransButton{
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.TransButton:hover{
+    cursor: pointer;
+    
+}
